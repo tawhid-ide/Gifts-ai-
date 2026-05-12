@@ -4,7 +4,7 @@ Find the perfect gift for anyone in seconds using AI.
 Gifts AI is a modern web application that leverages the power of Google's Gemini 1.5 Flash model to provide personalized gift recommendations based on user preferences, budget, and occasion.
 
 ## 🚀 Live Demo
-Visit the live app: [giftsai.netlify.app](https://giftsai.netlify.app)
+Visit the live demo app: [giftsai.netlify.app](https://giftsai.netlify.app)
 
 ## ✨ Features
 - **AI-Powered Recommendations:** Uses state-of-the-art AI to analyze recipient details and suggest real products available on Amazon.
