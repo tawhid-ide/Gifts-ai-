@@ -89,4 +89,4 @@ If you're looking for a gift for a "Friend" in their "20s" for a "Housewarming" 
 - **Icons:** [Lucide React](https://lucide.dev/)
 
 ---
-Created by [Tawhid Insan](https://github.com/tawhidinsan)
+Created by [Tawhid Islam](https://github.com/tawhid-ide)
