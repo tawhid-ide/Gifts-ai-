@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="%VITE_FAVICON_URL%">
+    <link rel="apple-touch-icon" href="%VITE_APPLE_TOUCH_ICON_URL%">
+    <meta name="google-site-verification" content="DNwBsy4fC46v37ZI4DH1mDIWjq7X3XrMlNVPxNk7GBg" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVMLHC294S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LVMLHC294S');
+    </script>
+
+    <title>Gifts AI - Find the Perfect Gift with AI</title>
+    <meta name="description" content="Struggling to find the perfect gift? Use our AI-powered Gift & Product Finder to get personalized Amazon product suggestions for any occasion, age, or budget." />
+    <meta name="keywords" content="AI gift finder, gift ideas, personalized gifts, Amazon product suggestions, gift recommender" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://giftsai.netlify.app" />
+    <meta property="og:site_name" content="Gifts AI" />
+    <meta property="og:title" content="Gifts AI - Find the Perfect Gift with AI" />
+    <meta property="og:description" content="Get personalized Amazon product suggestions for any occasion, age, or budget using AI." />
+    <meta property="og:image" content="%VITE_OG_IMAGE_URL%" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://giftsai.netlify.app" />
+    <meta property="twitter:title" content="Gifts AI - Find the Perfect Gift with AI" />
+    <meta property="twitter:description" content="Get personalized Amazon product suggestions for any occasion, age, or budget using AI." />
+    <meta property="twitter:image" content="%VITE_TWITTER_IMAGE_URL%" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Gifts AI",
+        "url": "https://giftsai.netlify.app"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Gifts AI",
+        "description": "An AI-powered Gift & Product Finder that suggests perfect Amazon products based on user preferences.",
+        "applicationCategory": "ShoppingApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        }
+      }
+    ]
+    </script>
+  </head>
+  <body class="bg-[#0a0a0a] text-white">
+    <div id="root"></div>
+    <!-- Hidden form for Netlify identification -->
+    <form name="feedback" data-netlify="true" hidden>
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
